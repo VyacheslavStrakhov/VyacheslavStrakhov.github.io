@@ -1,0 +1,231 @@
+body {
+  margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(./img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  width: 100%;
+  height: 150px;
+  background-color: #333333;
+  border-radius: 0 0 10px 10px;
+  border-bottom: #c46825;
+  border-style: solid;
+  border-width: 0 0 3px 0;
+}
+.globalHeadLogo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.Logo1 {
+  font-size: 40px;
+  color: white;
+  width: 33.3%;
+  text-align: center;
+}
+.logo2 {
+  display: flex;
+  justify-content: space-around;
+  width: 33.3%;
+}
+.logo3 {
+  font-size: 25px;
+  color: white;
+  width: 33.3%;
+  text-align: right;
+  letter-spacing: -0.2em;
+  word-spacing: 6px;
+}
+.logo3 span {
+  padding-right: 10%;
+}
+.headLogo1 {
+  width: 30%;
+  height: 70px;
+}
+.headLogo1 a {
+  width: 100%;
+  height: 100%;
+}
+.headLogo1 a img {
+  width: 100%;
+  height: 75px;
+  box-shadow: 1px 1px 5px black, 1px 1px 5px black;
+  border-radius: 3px;
+}
+.headLogo1:active a img {
+  width: 100%;
+  height: 75px;
+  box-shadow: 1px 1px 5px black, 1px 1px 5px black;
+  border-radius: 3px;
+}
+.headLogo2 {
+  width: 30%;
+  height: 70px;
+}
+.headLogo2 a {
+  width: 100%;
+  height: 100%;
+}
+.headLogo2 a img {
+  width: 100%;
+  height: 75px;
+  box-shadow: 1px 1px 5px black, 1px 1px 5px black;
+  border-radius: 3px;
+}
+.headLogo3 {
+  display: inline-block;
+  background-color: whitesmoke;
+  width: 30%;
+  height: 70px;
+}
+.headLogo3 a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.headLogo3 a img {
+  width: 100%;
+  height: 75px;
+  box-shadow: 1px 1px 5px black, 1px 1px 5px black;
+  border-radius: 3px;
+}
+.mainGlobal {
+  padding-top: 3%;
+  padding-bottom: 4%;
+}
+.mainLogo1 {
+  width: 12%;
+  height: 100px;
+  position: relative;
+  left: 44%;
+}
+.mainLogo1 img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 1px 1px 5px black, 1px 1px 5px black;
+  border-radius: 3px;
+}
+.mainLogo2 {
+  background-color: whitesmoke;
+  width: 12%;
+  height: 100px;
+  position: relative;
+  left: 44%;
+}
+.mainLogo2 img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 1px 1px 5px black, 1px 1px 5px black;
+  border-radius: 3px;
+}
+.mainLogo3 {
+  background-color: whitesmoke;
+  width: 12%;
+  height: 100px;
+  position: relative;
+  left: 44%;
+}
+.mainLogo3 img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 1px 1px 5px black, 1px 1px 5px black;
+  border-radius: 3px;
+}
+.buttonGlobal {
+  display: flex;
+  justify-content: space-around;
+  padding: 2%;
+  padding-bottom: 2%;
+  height: 210px;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+.button {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 12%;
+  height: 200px;
+  background-color: #ededed;
+  font-size: 22px;
+  box-shadow: 1px 1px 5px black, 1px 1px 5px black;
+  transition: 0.3s;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  margin: 1px;
+  text-decoration: none;
+  min-width: 150px;
+}
+.modal {
+  display: none;
+  position: absolute;
+  top: 210px;
+  width: 100%;
+  height: 90px;
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  font-size: 15px;
+  opacity: 0;
+  transition: 0.3s;
+}
+.button:hover {
+  width: 13%;
+  height: 210px;
+  background-color: #ededed;
+  font-size: 28px;
+  box-shadow: 1px 1px 5px rgba(154, 147, 140, 0.5);
+  transition: 0.3s;
+}
+a:hover .modal {
+  display: inline-block;
+  position: absolute;
+  top: 218px;
+  width: 100%;
+  height: 90px;
+  background-color: #e6e6e6;
+  font-size: 15px;
+  box-shadow: 1px 1px 5px black, 1px 1px 5px black;
+  opacity: 1;
+  transition: 0.3s;
+  color: black;
+  z-index: 2;
+}
+a:visited {
+  color: black;
+}
+.br {
+  height: 100px;
+}
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #292929;
+  border-radius: 10px 10px 0 0;
+  border-top: #c46825;
+  border-style: solid;
+  border-width: 3px 0 0 0;
+  color: white;
+  font-size: 25px;
+}
+.footLogo {
+  letter-spacing: -0.3em;
+  word-spacing: 14px;
+  font-size: 28px;
+}
+li {
+  list-style-type: none;
+  font-size: 20px;
+}
+li a {
+  text-decoration: none;
+  color: #cccccc;
+}
+li a:visited {
+  color: #cccccc;
+}
